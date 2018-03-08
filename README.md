@@ -33,18 +33,28 @@ Frontend: javascript + html
 Backend: nodejs + express
 
 Importante: la aplicación está incompleta, por falta de tiempo personal no ha sido posible llevar a cabo la idea total de lo pretendido.
-Comentario:
+
+### Comentario:
 Se decidió usar Express como infraestructura para montar la aplicación web con node.js
+
 Todas las librerias instaladas están incluidas en el zip, a destacar "ejs" para permitir usar html en vez de jade.
+
 Para arrancar la aplicación basta con tener instalado node y desde de la consola con ir a la carpeta de la aplicación "datademo" y ejecutar:
-npm start
+
+`npm start`
+
 Se quedará en la consola, no cerrar, y se podrá ver corriendo la aplicación en el puerto 3000:
+
 localhost:3000
+
 En la parte front unicamente está desarrollado como extraer los datos del csv y formatearlos en json para poder usarlos.
+
 La idea era usar Chart.js para mostrar esos datos. Hay que tener en cuenta el tamaño y las dificultades en la renderización de la pantalla.
+
 Por tanto la idea era ir accediento a los datos a través de gráficos en forma de puntos (scatter) acotados hasta poder llegar al dato concreto requerido.
-Pasos:
-1º seleccionar el atributo (un punto por cada uno de diferente color) por el que se quiere buscar.
-2º Se mostrarán varios puntos con distintos rangos de valores.
-3º Ir bajando de niveles de puntos hasta llegar a un nivel en que los puntos representen tuplas concretas y ya mostrar toda la información.
+
+### Pasos:
+1. seleccionar el atributo (un punto por cada uno de diferente color) por el que se quiere buscar.
+2. Se mostrarán varios puntos con distintos rangos de valores.
+3. Ir bajando de niveles de puntos hasta llegar a un nivel en que los puntos representen tuplas concretas y ya mostrar toda la información.
 
